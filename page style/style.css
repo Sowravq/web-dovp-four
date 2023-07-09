@@ -83,13 +83,48 @@ line-height: 30px;
 height: 676px;
   }
  .padding{
-     
     border-radius: 10px;
 background: #FFF8F3;
-border: 3px solid red;
- margin:100px 200px;
+border: none;
+  margin-top: 80px;
+  margin-left: 500px;
+  margin-right: 500px;
+ text-align: center; 
+ padding: 40px;
  }
- .name-email-style{
+.name-email-style{
     display: flex;
- }
+    margin-left: 85px;
+    /* text-align: center; */
+    gap: 30px;
+}
+.main-head-style{
+    color:  #181818;
+font-size: 35px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+}
+.main-pra-style{
+    color:   #757575;
+/* text-align: justify; */
+/* font-family: Open Sans; */
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 30px;
+}
+.ne-style{
+    color: #757575;
+    /* text-align: center; */
+    /* font-family: Open Sans; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 30px;
+}
+.center{
+    /* text-align: center; */
+    /* display: flex; */
+}
   
