@@ -167,4 +167,14 @@ margin-right: 10px;
     margin-right: 710px;
     margin-top: 20px;
   }
-    
+    .foter-flx{
+        display: flex;
+        margin-left: 300px;
+        margin-right: 190px;
+        justify-content: space-between;
+    }
+      .bg-colr{
+        background-color: rgba(112, 128, 144, 0.174);
+        /* border-left: 230px; */
+        margin-top: 40px;
+      }
