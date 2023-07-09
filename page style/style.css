@@ -1,13 +1,16 @@
-nav{
+ header{
     background: #FFF8F3;
-    /* padding: 56px 100px; */
-    padding-top: 56px;
-   padding-left: 200px;
-   padding-right: 56px;
+     padding-top: 56px;
+    background-image: url('../images/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .header-style{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
 }
 ul{
     display: flex;
@@ -48,7 +51,9 @@ font-size: 45px;
 /* font-style: normal; */
 /* font-weight: 600; */
 /* line-height: normal; */
-  
+}
+.banar-style{
+    max-width: 500px;
 }
 .head1-style{
  color:   #181818;
@@ -66,5 +71,25 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-  
+.banar{
+ display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  align-items: center;
+   
+  }
+  .profile-picture{
+    width: 584px;
+height: 676px;
+  }
+ .padding{
+     
+    border-radius: 10px;
+background: #FFF8F3;
+border: 3px solid red;
+ margin:100px 200px;
+ }
+ .name-email-style{
+    display: flex;
+ }
   
